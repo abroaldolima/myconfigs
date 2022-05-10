@@ -6,6 +6,7 @@
   "EmailFeedback": "abroaldo@bol.com.br",
   "UrlContato": "https://api.whatsapp.com/send?phone=5548996316102",
   "UrlTermos": "https://raw.githubusercontent.com/abroaldolima/myconfigs/main/termos",
+  "CheckUser": "false",
   "UdpPort": "7300",
   "Servers": [
     {
@@ -13,6 +14,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "sv1.123vpn.xyz",
+      "CheckUser": "",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
