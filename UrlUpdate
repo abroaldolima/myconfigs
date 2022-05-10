@@ -5,7 +5,7 @@
   "Sms": "https://raw.githubusercontent.com/abroaldolima/myconfigs/main/UrlSms",
   "EmailFeedback": "abroaldo@bol.com.br",
   "UrlContato": "https://api.whatsapp.com/send?phone=5548996316102",
-  "UrlTermos": "https://github.com/abroaldolima/myconfigs/blob/main/termos.html",
+  "UrlTermos": "https://raw.githubusercontent.com/abroaldolima/myconfigs/main/termos",
   "UdpPort": "7300",
   "Servers": [
     {
