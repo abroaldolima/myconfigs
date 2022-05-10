@@ -1,7 +1,7 @@
 {
   "Version": "1.0.1",
   "ReleaseNotes": "Versão Base",
-  "UrlUpdate": "https://github.com/abroaldolima/myconfigs/blob/main/UrlUpdate",
+  "UrlUpdate": "https://raw.githubusercontent.com/abroaldolima/myconfigs/main/UrlUpdate",
   "Sms": "https://github.com/abroaldolima/myconfigs/blob/main/UrlSms",
   "EmailFeedback": "abroaldo@bol.com.br",
   "UrlContato": "https://api.whatsapp.com/send?phone=5548996316102",
