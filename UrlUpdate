@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "Update Operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/abroaldolima/myconfigs/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/abroaldolima/myconfigs/main/UrlSms",
@@ -7,7 +7,7 @@
   "UrlContato": "https://api.whatsapp.com/send?phone=5548996316102",
   "UrlTermos": "https://raw.githubusercontent.com/abroaldolima/myconfigs/main/termos",
   "CheckUser": "false",
-  "UdpPort": "7300",
+  "UdpPort": "7300;7200",
   "Servers": [
     {
       "Name": "ForceConnect | PLUS",
@@ -65,8 +65,8 @@
     {
       "Name": "CLARO",
       "FLAG": "claro",
-      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
@@ -75,11 +75,11 @@
     {
       "Name": "CLARO LENTA",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "content.akross.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "",
+      "ProxyIP": "200.241.228.226",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
