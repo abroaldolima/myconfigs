@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "Update Operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/abroaldolima/myconfigs/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/abroaldolima/myconfigs/main/UrlSms",
@@ -21,7 +21,7 @@
       "PASS": ""
     }
   ],
- "Networks": [
+"Networks": [
     {
       "Name": "VIVO",
       "FLAG": "vivo",
@@ -35,9 +35,9 @@
     {
       "Name": "VIVO ws",
       "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "104.18.7.80",
+      "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "cname.vivo.com.br",
+      "TlsIP": "cname.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
